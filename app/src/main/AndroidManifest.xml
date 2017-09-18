@@ -19,6 +19,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SniadanieActivity"
+            android:label="@string/title_activity_sniadanie"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="prezes.jedzenie.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ObiadActivity"
+            android:label="@string/title_activity_obiad"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="prezes.jedzenie.MainActivity" />
+        </activity>
+        <activity
+            android:name=".KolacjaActivity"
+            android:label="@string/title_activity_kolacja"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="prezes.jedzenie.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ListaActivity"
+            android:label="@string/title_activity_lista"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="prezes.jedzenie.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

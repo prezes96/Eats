@@ -1,5 +1,12 @@
+/*
+ *  Program: Jedzenie
+ *  Autor: Grzegorz Milaszkiewicz
+ *  Data: 18 września 2017 r.
+ */
+
 package prezes.jedzenie;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -42,19 +49,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void klik(View view) {
+        Intent intent;
         switch(view.getId())
         {
             case R.id.przyciskSniadanie:
-
+                intent = new Intent(MainActivity.this, SniadanieActivity.class);
+                startActivity(intent);
                 break;
             case R.id.przyciskObiad:
-
+                intent = new Intent(MainActivity.this, ObiadActivity.class);
+                startActivity(intent);
                 break;
             case R.id.przyciskKolacja:
-
+                intent = new Intent(MainActivity.this, KolacjaActivity.class);
+                startActivity(intent);
                 break;
             case R.id.przyciskLista:
-
+                intent = new Intent(MainActivity.this, ListaActivity.class);
+                startActivity(intent);
                 break;
         }
     }

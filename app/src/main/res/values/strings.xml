@@ -5,4 +5,8 @@
     <string name="obiad">Obiad</string>
     <string name="kolacja">Kolacja</string>
     <string name="lista">Lista</string>
+    <string name="title_activity_sniadanie">SniadanieActivity</string>
+    <string name="title_activity_obiad">ObiadActivity</string>
+    <string name="title_activity_kolacja">KolacjaActivity</string>
+    <string name="title_activity_lista">ListaActivity</string>
 </resources>
